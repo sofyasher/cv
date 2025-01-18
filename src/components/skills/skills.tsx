@@ -12,8 +12,7 @@ const SkillItem = ({ name, level, t }) => {
   return (
     <Tooltip
       title={title}
-      arrow
-      TransitionComponent={Zoom}
+      arrow slots={{transition: Zoom}}
       followCursor={true}
       enterDelay={0}
       placement='top'

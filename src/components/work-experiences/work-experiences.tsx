@@ -12,8 +12,8 @@ const boxContent = (t: any, lang: string | undefined) => (
         className='work-experience'
         key={experience.position + experience.from}
       >
-        <b>{experience.position}</b>, {experience.companyName} &mdash;{' '}
-        {experience.location}
+        <b>{experience.position}</b>, {experience.companyName}
+        {experience.location && <> &mdash; {experience.location}</>}
         <div className='experience-period'>
           {experience.from} &mdash;{' '}
           {experience.to ? experience.to : t('untilNow')}
@@ -21,7 +21,7 @@ const boxContent = (t: any, lang: string | undefined) => (
         <div className='experience-description'>
           {experience.description}
           <br />
-          {experience.link ? (
+          {experience.link && (
             <>
               {t('moreInfo.0')}{' '}
               <Link className='link' href={experience.link}>
@@ -29,8 +29,6 @@ const boxContent = (t: any, lang: string | undefined) => (
               </Link>
               .
             </>
-          ) : (
-            ''
           )}
         </div>
       </Box>

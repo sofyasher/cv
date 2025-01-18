@@ -46,12 +46,11 @@ export const GITHUB_REPO_URL = 'https://github.com/sofyasher';
 export const GITHUB_REPO_SHOPPING_MAP_MOBILE_URL =
   GITHUB_REPO_URL + '/shopping-map-mobile';
 export const GITHUB_REPO_LUNCH_URL = GITHUB_REPO_URL + '/lunch';
-export const GITHUB_REPO_RESUME_URL = GITHUB_REPO_URL + '/resume';
+export const GITHUB_REPO_CV_URL = GITHUB_REPO_URL + '/cv';
 export const GITHUB_REPO_PRAGUE_TOUR_GUIDE_BACKEND_URL =
   GITHUB_REPO_URL + '/prahou-s-blankou-admin-backend';
 export const EMAIL = 'sofya@sherstneva.cz';
-export const PHONE = '+420 777 067 332';
-export const PRAHOU_S_BLANKOU_URL = 'https://prahousblankou.cz';
+export const BLANKA_PRAGUE_GUIDE_URL = 'https://prahousblankou.cz';
 export const PLOS_ONE_URL = 'https://doi.org/10.1371/journal.pone.0113714';
 export const PLOS_ONE_TOPIC =
   'Comparative Genomics of Transcriptional Regulation of Methionine Metabolism in Proteobacteria';

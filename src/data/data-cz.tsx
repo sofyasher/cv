@@ -3,10 +3,17 @@ import { EducationModel } from '../models/education.model';
 
 export const workExperiencesCz: WorkExperienceModel[] = [
   {
+    position: 'Senior Software Developer',
+    companyName: 'Oracle Global Services Czech Republic s.r.o.',
+    from: 'Říjen 2024',
+    description: 'Vývoj frontendu (Oracle JET, Preact).',
+  },
+  {
     position: 'Consultant',
     companyName: 'Profinit EU, s.r.o.',
     location: 'Praha, Česká republika',
     from: 'Květen 2020',
+    to: 'Říjen 2024',
     description:
       'Vývoj (analýza, implementace, automatizované ' +
       'testování) frontendové části aplikace (Angular, Jest, Cypress) a vývoj backendu (Java, Spring Boot, PostgreSQL).',

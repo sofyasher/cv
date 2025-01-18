@@ -3,13 +3,13 @@ import { Box, Link } from '@mui/material';
 import {
   GITHUB_REPO_LUNCH_URL,
   GITHUB_REPO_PRAGUE_TOUR_GUIDE_BACKEND_URL,
-  GITHUB_REPO_RESUME_URL,
+  GITHUB_REPO_CV_URL,
   GITHUB_REPO_SHOPPING_MAP_MOBILE_URL,
   OXFORD_ACADEMIC_TOPIC,
   OXFORD_ACADEMIC_URL,
   PLOS_ONE_TOPIC,
   PLOS_ONE_URL,
-  PRAHOU_S_BLANKOU_URL,
+  BLANKA_PRAGUE_GUIDE_URL,
   SMTB_URL,
 } from '../../data/data';
 import CustomBox from '../custom-box/custom-box';
@@ -22,7 +22,7 @@ const boxContent = (t: any) => (
     {t('additionalInfo.projects')}:{' '}
     <Link
       className='link'
-      href={PRAHOU_S_BLANKOU_URL}
+      href={BLANKA_PRAGUE_GUIDE_URL}
       target='_blank'
       rel='noreferrer'
     >
@@ -58,7 +58,7 @@ const boxContent = (t: any) => (
     |{' '}
     <Link
       className='link'
-      href={GITHUB_REPO_RESUME_URL}
+      href={GITHUB_REPO_CV_URL}
       target='_blank'
       rel='noreferrer'
     >

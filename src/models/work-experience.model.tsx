@@ -1,7 +1,7 @@
 export interface WorkExperienceModel {
   position: string;
   companyName: string;
-  location: string;
+  location?: string;
   description: string;
   link?: string;
   from: string;
