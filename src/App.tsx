@@ -8,7 +8,7 @@ import AdditionalInfo from './components/additional-info/additional-Info';
 import Education from './components/education/education';
 import LangSwitch from './components/lang-switch/lang-switch';
 import DownloadPdf from './components/download-pdf/download-pdf';
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 
 const App = () => {
   return (
