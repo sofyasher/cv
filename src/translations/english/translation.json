@@ -14,9 +14,9 @@
     "level5": "Expert"
   },
   "additionalInfo": {
-    "label": "Additional info",
+    "label": "Additional information",
     "completeDev": "complete development",
-    "seeAcknowledgmentsSection": "look at Acknowledgments section",
+    "seeAcknowledgmentsSection": "see Acknowledgments section",
     "projects": "Projects",
     "resume": "CV"
   },
@@ -36,8 +36,8 @@
   },
   "moreInfo": ["For more information please look at the", "link"],
   "smtb": [
-    "I took part in the ",
+    "I participated in the ",
     "School of Molecular and Theoretical Biology",
-    "these articles represent the results of the work at the School"
+    "resulting in the following publications"
   ]
 }
